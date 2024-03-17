@@ -2,13 +2,15 @@
   "name": "opanuj-frontend-examples",
   "version": "1.0.0",
   "description": "Examples from Opanuj Frontend course",
-  "main": "-",
+  "main": "index.js",
   "scripts": {
     "example": "node ./scripts/vite.mjs",
     "test": "vitest",
     "test:e2e": "npx playwright install && npx playwright test",
     "test:e2e:ui": "npx playwright install && npx playwright test --ui",
-    "lint:e2e": "npx eslint **/{tests,pages,mocks}/**"
+    "lint:e2e": "npx eslint **/{tests,pages,mocks}/**",
+    "start": "parcel module2/lesson2/flight-scanner/index.html",
+    "build": "parcel build module2/lesson2/flight-scanner/index.html"
   },
   "repository": {
     "type": "git",
@@ -59,6 +61,7 @@
     "jsdom": "24.0.0",
     "msw": "2.2.2",
     "playwright-msw": "3.0.1",
+    "process": "^0.11.10",
     "svelte": "4.2.12",
     "svelte-preprocess": "5.1.3",
     "typescript": "5.3.3",
