@@ -14,5 +14,5 @@ export interface DailyWeather {
 export interface LocationWeather {
   city: string;
   country: string;
-  weatherDetails: DailyWeather[];
+  weatherDetails: DailyWeather[] | { Weather: DailyWeather[] };
 }
