@@ -7,28 +7,22 @@
       "rating": 5
     },
     {
-      "id": 2,
-      "author": "Mark Green",
-      "text": "Such a great book!",
-      "rating": 4
-    },
-    {
-      "id": 3,
-      "author": "Noah Smith",
-      "text": "Fine but not great.",
+      "id": "756691d4-65f6-4410-a91d-a90d2ee2c5c5",
+      "author": "Anonymous Author",
+      "text": "2",
       "rating": 3
     },
     {
-      "id": 4,
-      "author": "Jane Tarzan",
-      "text": "I don't like it.",
-      "rating": 2
+      "id": "8651cec6-9ad4-49f8-88a8-302a64e3d07a",
+      "author": "Anonymous Author",
+      "text": "342342",
+      "rating": 3
     },
     {
-      "id": 5,
-      "author": "Sigurd Sigurdsson",
-      "text": "Make my heart warm.",
-      "rating": 4
+      "id": "84a1e7f4-ca33-4999-b16c-bdd81edb8f4d",
+      "author": "Anonymous Author",
+      "text": "qwq",
+      "rating": 1
     }
   ]
 }
